@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false $ true opens extra gnome-terminal
+Name=[RO:BIT] MINI ROBOT
+Icon=/home/robit/Desktop/.mini_launch/icon/icon.jpg
+Exec=terminator -e "bash -c '/home/robit/Desktop/.mini_launch/launch.sh;$SHELL'" 
+$Exec=gnome-terminal -e "bash -c '/home/robit/Desktop/.mini_launch/launch.sh;$SHELL'"
